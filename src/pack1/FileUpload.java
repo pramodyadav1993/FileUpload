@@ -29,7 +29,7 @@ public class FileUpload
 		caps.setCapability("browser", "Chrome");
 	    caps.setCapability("browser_version", "latest");
 	    caps.setCapability("os", "Windows");
-	    caps.setCapability("name", "BStack-[Java] Sample Test"); // test name
+	    caps.setCapability("name", "BStack-[Java] Sample Test -Jenkins"); // test name
 	    WebDriver driver=new RemoteWebDriver(new URL(URL), caps);
 	    driver.manage().window().maximize();
 	    ((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
